@@ -29,7 +29,7 @@
     font-family: 'Poppins Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('fonts/Poppins-Bold'), url('fonts/Poppins-Bold.ttf') format('ttf');
+    src: local('fonts/Poppins-Bold'), url('/fonts/Poppins-Bold.ttf') format('ttf');
     }
 
 @font-face {
@@ -50,7 +50,7 @@
         font-family: 'Poppins Regular';
         font-style: normal;
         font-weight: normal;
-        src: local('fonts/Poppins Regular'), url('fonts/Poppins-Regular.ttf') format('ttf');
+        src: local('fonts/'), url('fonts/Poppins-Regular.ttf') format('ttf');
     }
 
 @font-face{

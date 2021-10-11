@@ -4,7 +4,10 @@
 
 }
 
-.appName
+#title
 {
-  
+  font-size: 1.9em;
+  --color: var(--ion-color-primary-contrast);
+  color: var(--ion-color-primary-contrast);
+  --font-family: 'Poppins-Bold';
 }
