@@ -1,3 +1,5 @@
+@import '../../../global.scss';
+
 .main-content
 {
   --background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), var(--ion-color-primary);
@@ -5,13 +7,14 @@
 }
 #tlMg
 {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
-#title
+.title
 {
-  font-size: 1.9em;
+  font-size: 1.8em;
   --color: var(--ion-color-primary-contrast);
   color: var(--ion-color-primary-contrast);
-  --font-family: 'Poppins-Bold';
+  font-family: 'Playball-Regular';
+  
 }
