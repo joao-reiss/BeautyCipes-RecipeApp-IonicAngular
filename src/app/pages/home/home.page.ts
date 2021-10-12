@@ -1,4 +1,6 @@
+import { AnimationService } from './../../animation/animation.service';
 import { Component } from '@angular/core';
+
 
 @Component({
   selector: 'app-home',
@@ -7,6 +9,10 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor( 
+    private animation: AnimationService 
+    ) {}
+
+  
 
 }
