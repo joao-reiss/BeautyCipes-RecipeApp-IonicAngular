@@ -7,14 +7,32 @@
 }
 #tlMg
 {
+  text-align: center;
   margin-top: 30px;
 }
 
-.title
+#title
 {
-  font-size: 1.8em;
+  font-size: 3.5em;
   --color: var(--ion-color-primary-contrast);
   color: var(--ion-color-primary-contrast);
-  font-family: 'Poppins Medium';
-  
+  font-family: 'Playball Regular';
+  text-shadow: 0.5px 0.5px white;
+  font-weight: 550;  
 }
+
+#imgAli
+{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.logo
+{
+  max-width: 80px;
+  min-width: 80px;
+}
+
+.loginClass{ margin-left: auto; margin-right: auto; width: 300px; border-radius: 20px; background-color: var(--ion-color-primary); }
+
+.ion-button{ }
