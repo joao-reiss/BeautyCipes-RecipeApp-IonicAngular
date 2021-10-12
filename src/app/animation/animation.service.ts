@@ -10,7 +10,7 @@ export class AnimationService {
 
   }
 
-  private AnimationCenter = (baseEl: any) => {
+  public AnimationCenter = (baseEl: any) => {
 
     const backdropAnimation = this.animationCtrl.create()
       .addElement(baseEl.querySelector('ion-backdrop'))
